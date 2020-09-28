@@ -23,7 +23,7 @@ public class FunctionResultCache <K, V> {
 
     /**
      * Function class implementing equals and hashCode based on function class name instead of pointer
-     * thus allowing correct
+     * thus allowing correct caching of results
      * @param <K>
      * @param <V>
      */
